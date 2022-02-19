@@ -6,8 +6,45 @@
     </head>
     <style></style>
     
-    <body style="background-color: #222;" id="top">
-    <div class="menuSticky topBG">
+    <body style="background-color: #1e1e1e;" id="top" onload="openSideBar()">
+
+
+        <script>            
+
+            function openSideBar() {
+              document.getElementById("mySideBar").style.width = "250px";
+            }
+            
+            function closeSideBar() {
+              document.getElementById("mySideBar").style.width = "0";
+            }
+        </script>
+
+        <div id="mySideBar" class="sideBar">
+            <div class="extraMarginBlock"><a href="index.html"><img src="logo-very-small.jpg" class="smallLogo"></a>
+                <p class="smallLogoText">OFFbit Tech</p><p class="smallLogoText">Website</p>   </div>
+            
+            
+            <div class="flexBox-container" id="menuButton">
+                <a href="#top">Welcome Page</a></div>
+            <div class="flexBox-container" id="menuButton">
+                    <a href="#Tech">Tech Stuff</a></div>
+            <div class="flexBox-container" id="menuButton">
+                <a href="#Core2">Core 2 CPUs</a></div>
+                <div class="flexBox-container" id="menuButton">
+                    <a href="#AMD">AMD CPUs</a></div> 
+            <div class="flexBox-container" id="menuButton">
+                <a href="#intel">i3/i5/i7 CPUs</a></div>
+            <div class="flexBox-container" id="menuButton">
+                    <a href="#Workstations">Workstation OEM PCs</a></div>
+            <div class="flexBox-container" id="menuButton">
+                <a href="#Laptops">Laptop Upgrades</a></div>
+                <div class="flexBox-container" id="menuButton">
+                    <a href="#Software">Tools & Software</a></div>
+        </div>
+
+
+        <div class="menuSticky topBG layer2">
         <div class="screenMargin centerItems">
             <div class="topBar flexBox-container" style="font-size: 40px;">
                 <a href="https://www.patreon.com/OFFbit"><img class="iconTop centerItems" src="Patreon.png"alt="Patreon"></a>
@@ -15,7 +52,10 @@
                 <a href="https://www.youtube.com/channel/UC4_lTAeps_2kk0oy4Bh-klg"><img class="iconTop centerItems" src="yuotubeIcon.png"alt="youTube"></a></div>
                 <div style="height: 10px;"></div> 
         </div>
-       <div class="menu flexBox-container">
+
+            <div class="menuStripShadow"></div>
+
+        <!-- <div class="menu flexBox-container">
             <div class="menuStrip"></div>
             <div class="flexBox-container" id="menuButton">
                 <a href="#top">Welcome Page</a></div>
@@ -34,7 +74,7 @@
                 <div class="flexBox-container" id="menuButton">
                     <a href="#Software">Tools & Software</a></div>
             <div class="menuStrip"></div>          
-       </div>
+       </div> -->
     </div>                
        <div class="outBody flexBox-container">
             <div class="bodyBox flexBox-container">
@@ -263,7 +303,7 @@
             <div class="endBox"></div>  
 
         </div>
-    </div>
-       
+    </div>    
+
     </body>
 </html>

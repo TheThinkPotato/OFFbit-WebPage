@@ -65,6 +65,16 @@ p {
   justify-content: center;
 }
 
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.flexCol{
+  display: flex;
+  flex-direction: column;
+}
+
 .topBG {
   /* background-color: black; */
   background-image: url("topbg.jpg");
@@ -97,9 +107,6 @@ p {
   position: sticky;
   top: 0;
 }
-
-
-
 
 #menuButton a:link,
 a:visited {
@@ -206,16 +213,16 @@ a:visited {
 }
 
 .outBody {
+  display: block;
   width: 100%;
-  background-color: #1e1e1e;
-  align-content: flex-start;
-  text-align: center;
+  background-color: #1E1E1E;
   height: fit-content;
 }
 
 .bodyBox {
   background-color: #1E1E1E;
-
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1000px;
   width: 100%;
   height: 90%;

@@ -99,20 +99,12 @@ p {
 }
 
 
-#menuButton a:hover {
-  /*display:block;*/
-  background-color: #555;
-  border-bottom: 3px solid #922;  
-}
+
 
 #menuButton a:link,
 a:visited {
-  /*display:block;*/
-  /*background-color: #eb5757;*/
   display: flex;
-  color: aliceblue;
-  
-  border-bottom: 3px solid #222;  
+  color: aliceblue;     
   padding: 25px;
   height: 10px;
   width: 100%;
@@ -122,21 +114,23 @@ a:visited {
   text-decoration: none;
   position: relative;
   margin-top: 0px;
-  margin-inline: 2px;
+  margin-inline: 2px;  
 }
 
-#DLButton a:hover {
-  /*display:block;*/
-  background-color: #27ae60;
+#menuButton a:hover {   
+  background-color: #555;    
+  color: aliceblue;   
+  margin-bottom: -3px;
+  border-bottom: 3px solid #922;  
 }
 
 #DLButton a:link,
 a:visited {
-  /*display:block;*/
+  
   background-color: #eb5757;
+  border: 1px solid black;
   display: flex;
-  color: aliceblue;
-  /* border: 2px solid black; */
+  color: aliceblue;  
   padding: 25px;
   height: 10px;
   width: 140px;
@@ -147,6 +141,11 @@ a:visited {
   margin-top: 0px;
   margin-inline: 2px;
 }
+
+#DLButton a:hover {  
+  background-color: #27ae60;  
+}
+
 
 .smallLogoText {
   font-size: 1rem;

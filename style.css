@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: 'OFFbitMenu';
+  src: url('./OFFbitMenu.woff');
+}  
+
 
 * {
   padding: 0;
@@ -7,6 +12,7 @@
   font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
 }
+
 
 h1 {
   color: #27ae60;
@@ -22,6 +28,12 @@ p {
   color: lightgrey;
 }
 
+.menuFont{
+  font-size: 205px;
+  font-family: 'OFFbitMenu';
+  
+}
+
 .p2 {
   font-size: 20px;
   color: lightgrey;
@@ -30,9 +42,7 @@ p {
 
 
 .iconTop {
-  /*display: flex;*/
   max-height: 35px;
-  /*justify-content: right;*/
 }
 .topLogo {
   display: flex;
@@ -169,13 +179,14 @@ a:visited {
   padding: 1rem;
 }
 
+@media only screen and (min-width: 1441px) {
 .sideBar{
   display: flex;
   flex-direction: column;
   vertical-align: top;    
 
   height: 88%;
-  width: 0;
+  width: 250;
   position: fixed;
   z-index: 1;
   top: 120px;
@@ -184,9 +195,67 @@ a:visited {
   overflow-x: hidden;   /* Disable scroll bar*/
   transition: 0.5s;
   border-right: 1px solid #444;
-  padding-top: 0;
-  
+  border-bottom: 1px solid #444;
+  padding-top: 0;  
+  }
+  #mySmallSideBar{
+    display: none;
+  }
+
+  .bodyBox {
+    background-color: #1E1E1E;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    width: 100%;
+    height: 90%;
+    padding: 1%;
+    color: aliceblue;
+    text-align: center;
+    align-items: flex-start;
+    height: fit-content;
+  }
+
 }
+@media only screen and (max-width: 1440px) {
+  .sideBar{       
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;    
+    
+    height: 88%;
+    width: 50;
+    position: fixed;
+    z-index: 1;
+    top: 120px;
+    left: 0;
+    background-color: #222;
+    overflow-x: hidden;   /* Disable scroll bar*/
+    transition: 0.5s;
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444;
+    padding-top: 0;      
+  }
+
+  #SmallSideBar{
+    display: none;
+  }
+
+  .bodyBox {
+    background-color: #1E1E1E;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    width: 100%;
+    height: 90%;
+    padding: 1%;
+    color: aliceblue;
+    text-align: center;
+    align-items: flex-start;
+    height: fit-content;
+  }
+}
+
 
 .layer1{
   z-index: 1;
@@ -221,19 +290,6 @@ a:visited {
   height: fit-content;
 }
 
-.bodyBox {
-  background-color: #1E1E1E;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1000px;
-  width: 100%;
-  height: 90%;
-  padding: 1%;
-  color: aliceblue;
-  text-align: center;
-  align-items: flex-start;
-  height: fit-content;
-}
 
 .bodyBoxScroll {
   scroll-margin-top: 300px;
@@ -255,6 +311,17 @@ a:visited {
   margin: auto;
   margin-bottom: 30px;
 }
+
+.itemBoxNoBorder { 
+  width: 80%;
+  height: fit-content;
+  border: 1px solid transparent;
+  box-sizing: border-box;  
+  align-items: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
 
 .itemBoxParagraph {
   width: 80%;

@@ -1,6 +1,6 @@
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>The OFFbit</title>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -10,9 +10,7 @@
 
         <div id="mySideBar" class="sideBar">
             <div class="extraMarginBlock"><a href="index.html"><img src="logo-very-small.jpg" class="smallLogo"></a>
-                <p class="smallLogoText">OFFbit Tech</p><p class="smallLogoText">Website</p>   </div>
-            
-
+                <p class="smallLogoText">OFFbit Tech</p><p class="smallLogoText">Website</p>   </div>    
             <div class="flexBox-container" id="menuButton">
                 <a href="#top"><p class="menuFont">A</p><div class="menuText">Welcome Page</div></a></div>
             <div class="flexBox-container" id="menuButton">
@@ -30,6 +28,7 @@
                 <div class="flexBox-container" id="menuButton">
                     <a href="#Software"><p class="menuFont">H</p><div class="menuText"></div>Tools & Software</a></div>
         </div>
+
 
         <div id="mySmallSideBar" class="sideBar">
             <div class="flexBox-container" id="menuButton">
@@ -50,73 +49,84 @@
                     <a href="#Software" class="menuFont" style="padding-left: 10px; font-size: 25px;">H</a></div>
         </div>
 
-
-
-        <div class="menuSticky topBG layer2">
+    <div class="menuSticky topBG layer2" id="desktop">
         <div class="screenMargin centerItems">
             <div class="topBar flexBox-container" style="font-size: 40px;">
                 <a href="https://www.patreon.com/OFFbit"><img class="iconTop centerItems" src="Patreon.png"alt="Patreon"></a>
                 <img class="topLogo centerItems"src="logo-top.png" alt="OFFbit Logo">       
-                <a href="https://www.youtube.com/channel/UC4_lTAeps_2kk0oy4Bh-klg"><img class="iconTop centerItems" src="yuotubeIcon.png"alt="youTube"></a></div>
-                <div style="height: 10px;"></div> 
+                <a href="https://www.youtube.com/channel/UC4_lTAeps_2kk0oy4Bh-klg"><img class="iconTop centerItems" src="yuotubeIcon.png"alt="youTube"></a>
+            </div>
+            <div style="height: 10px;"></div> 
         </div>
-
     </div>                
-       <div class="outBody flexBox-container">
-            <div class="bodyBox flexBox-container">
-                <div class="itemBoxNoBorder">
-                <iframe class="extraMarginBlock" src="IntroSmall.mp4" width="560" height="315" frameborder="1" allowfullscreen></iframe>
+
+    <div class="menuSticky topBG layer2" id="mobile">
+        <div class="screenMargin centerItems">
+            <div class="topBar flexBox-container" style="font-size: 40px;">                
+                <img class="topLogo centerItems"src="logo-top.png" alt="OFFbit Logo"> 
+                </div>                      
+            <div style="height: 10px;"></div> 
+        </div>
+    </div>                
+
+    
+    <div class="outBody flexBox-container">        
+        <div class="bodyBox flexBox-container">            
+            <div class="itemBoxNoBorder">
+                <div class="extraMarginBlock"></div>
+                <iframe id="desktop" class="extraMarginBlock" src="IntroSmall.mp4" width="560" height="315" frameborder="1" allowfullscreen="1"></iframe>
+                <iframe id="mobile" class="extraMarginBlock" src="IntroSmall.mp4" width="200" height="113" frameborder="1" allowfullscreen="1"></iframe>
 
                 <H1>Welcome to the official OFFbit Web Page.</H1>                
                 <p class="extraMarginBlock">On this site you will find useful information that we have put together
-                     to help you with your older computer needs. Most of the information will link you to our youtube channel.</p>        
+                        to help you with your older computer needs. Most of the information will link you to our youtube channel.</p>        
                 
                 <p class="extraMarginBlock">Keep up todate with what the OFFbit is doing come visit us on <a href=https://www.patreon.com/OFFbit>Patreon</a>.</p>  
-                </div>                   
-            </div>  
-            <div class="endBox"></div>          
+            </div>                   
+        </div>  
+        <div class="endBox"></div>          
 
-            <div class="bodyBox flexBox-container bodyBoxScroll" id="Tech">        
-                <H1>Computer Tech Stuff.</H1>                
+        <div class="bodyBox flexBox-container bodyBoxScroll" id="Tech">        
+            <H1>Computer Tech Stuff.</H1>                
 
-                <div class="itemBox">
-                    <div class="itemBoxParagraph">
-                        <h2>BSEL Mod.</h2>
-                        <a href="https://youtu.be/MTEVRqEGXFE" target="_blank"><p><img src="images/BSEL.jpg" alt="Play List Image"></a>
-                        <p class="p2">The Tape BSEL Mod. A mod for the core 2 CPUs that changes the FSB clock by 
-                            tricking the motherbaord to think it's CPU runs at a higher FSB. Giving us an overclock, 
-                            This is a good way to overclock OEM PCs that have no overclocking control in their BIOS.</p>                        
-                    </div>
+            <div class="itemBox">
+                <div class="itemBoxParagraph">
+                    <h2>BSEL Mod.</h2>
+                    <a href="https://youtu.be/MTEVRqEGXFE" target="_blank"><p><img src="images/BSEL.jpg" alt="Play List Image"></a>
+                    <p class="p2">The Tape BSEL Mod. A mod for the core 2 CPUs that changes the FSB clock by 
+                        tricking the motherbaord to think it's CPU runs at a higher FSB. Giving us an overclock, 
+                        This is a good way to overclock OEM PCs that have no overclocking control in their BIOS.</p>                        
                 </div>
+            </div>
 
-                <div class="itemBox">
-                    <div class="itemBoxParagraph">
-                        <h2>LGA 771 to 775 Mod.</h2>
-                        <a href="https://youtu.be/gxWxE0qLwwY" target="_blank"><p><img src="images/771.jpg" alt="Play List Image"></a>
-                        <p class="p2">This mod will enable LGA 771 CPUs into a standard LGA 775 motherbaord.
-                            This mod requires hardware and bios mods for it to work.</p>
-                    </div>
-                </div>                
-
-                <div class="itemBox">
-                    <div class="itemBoxParagraph">
-                        <h2>HP IPISB-CU New GPU Work Around.</h2>
-                        <a href="https://youtu.be/qT9bb_0Fwbo" target="_blank"><p><img src="images/IPISB-CU.jpg" alt="Play List Image"></a>
-                        <p class="p2">HP IPISB-CU has some serious issues with newer hardware. This workaround will enable you to get a
-                            NVidia 700 series or newer card to work on this PC.</p>
-                    </div>
+            <div class="itemBox">
+                <div class="itemBoxParagraph">
+                    <h2>LGA 771 to 775 Mod.</h2>
+                    <a href="https://youtu.be/gxWxE0qLwwY" target="_blank"><p><img src="images/771.jpg" alt="Play List Image"></a>
+                    <p class="p2">This mod will enable LGA 771 CPUs into a standard LGA 775 motherbaord.
+                        This mod requires hardware and bios mods for it to work.</p>
                 </div>
+            </div>                
 
-                <div class="itemBox">
-                    <div class="itemBoxParagraph">
-                        <h2>Dell Dimension 5100 - Power Button Fix</h2>
-                        <a href="https://youtu.be/eZfC9zLi4og" target="_blank"><p><img src="images/D5100.jpg" alt="Play List Image"></a>
-                        <p class="p2"> Watch the Dell Dimension 5100 - Power Button Fix Video.</p>                        
-                    </div>
+            <div class="itemBox">
+                <div class="itemBoxParagraph">
+                    <h2>HP IPISB-CU New GPU Work Around.</h2>
+                    <a href="https://youtu.be/qT9bb_0Fwbo" target="_blank"><p><img src="images/IPISB-CU.jpg" alt="Play List Image"></a>
+                    <p class="p2">HP IPISB-CU has some serious issues with newer hardware. This workaround will enable you to get a
+                        NVidia 700 series or newer card to work on this PC.</p>
                 </div>
-            
-            </div>                                
-            <div class="endBox"></div>
+            </div>
+
+            <div class="itemBox">
+                <div class="itemBoxParagraph">
+                    <h2>Dell Dimension 5100 - Power Button Fix</h2>
+                    <a href="https://youtu.be/eZfC9zLi4og" target="_blank"><p><img src="images/D5100.jpg" alt="Play List Image"></a>
+                    <p class="p2"> Watch the Dell Dimension 5100 - Power Button Fix Video.</p>                        
+                </div>
+            </div>
+        
+        </div>                                
+        <div class="endBox"></div>
             
 
 
@@ -245,7 +255,7 @@
                 <div class="itemBox" style="padding: top 20px !important;">
                     <div class="itemBoxParagraph">
                         <h2>Unreg Tools</h2>
-                        <p><img class="itemBoxParagraphTall" src="images/UnregTools.png" alt="Unreg Tools Image"></p>
+                        <p><img class="itemBoxParagraphTall" src="images/UnregTools.png" alt="Unreg Tools Image" width="100%" height="Auto"></p>
                         <p class = "p2"> Small set of tools for unregestered versions of windows to help customise your desktops look and feel.</p>
                         <div class="extraMarginBlock line"></div>                                                
                         <h2> Features:</h2>

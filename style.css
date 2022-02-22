@@ -12,19 +12,6 @@
   scroll-behavior: smooth;
 }
 
-h1 {
-  color: #27ae60;
-  margin-block: 2rem;
-}
-
-h2 {
-  margin-block: 1rem;
-}
-
-p {
-  font-size: 25px;
-  color: lightgrey;
-}
 
 .menuFont{
   font-size: 25px;
@@ -34,12 +21,6 @@ p {
 
 .menuText{
   padding-left: 15px;
-}
-
-.p2 {
-  font-size: 20px;
-  color: lightgrey;
-  margin-block: 1rem;
 }
 
 .iconTop {
@@ -179,46 +160,31 @@ a:visited {
   padding: 1rem;
 }
 
-@media only screen and (min-width: 1441px) {
-.sideBar{
-  display: flex;
-  flex-direction: column;
-  vertical-align: top;    
 
-  height: 88%;
-  width: 250;
-  position: fixed;
-  z-index: 1;
-  top: 120px;
-  left: 0;
-  background-color: #222;
-  overflow-x: hidden;   /* Disable scroll bar*/
-  transition: 0.5s;
-  border-right: 1px solid #444;
-  border-bottom: 1px solid #444;
-  padding-top: 0;  
+
+@media only screen and (min-width: 320px) {
+  h1 {
+    color: #27ae60;
+    margin-block: 1rem;
+    font-size: 16px;
   }
   
-  #mySmallSideBar{
-    display: none;
+  h2 {
+    font-size: 16px;
+    margin-block: 1rem;
   }
-
-  .bodyBox {
-    background-color: #1E1E1E;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1000px;
-    width: 100%;
-    height: 90%;
-    padding: 1%;
-    color: aliceblue;
-    text-align: center;
-    align-items: flex-start;
-    height: fit-content;
+  
+  p {
+    font-size: 10px;
+    color: lightgrey;
   }
-
-}
-@media only screen and (max-width: 1440px) {
+  
+  .p2 {
+    font-size: 10px;
+    color: lightgrey;
+    margin-block: 1rem;
+  }
+  
   .sideBar{       
     display: flex;
     flex-direction: column;
@@ -238,8 +204,98 @@ a:visited {
     padding-top: 0;      
   }
 
-  #SmallSideBar{
+  #desktop{
+    margin: auto;
     display: none;
+  }
+
+  #mobile{
+    margin: auto;
+    display: block;
+  }
+
+  #mySideBar{
+    display: none;
+  }
+
+  #mySmallSideBar{
+    display: block;
+  }
+
+
+  .bodyBox {
+    display: block;
+    background-color: #1E1E1E;
+    margin-left: 20%;
+    margin-right: auto;
+    max-width: 75%;
+    width: 100%;
+    height: 90%;
+    padding: 1%;
+    color: aliceblue;
+    text-align: center;
+    align-items: flex-start;
+    height: fit-content;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    color: #27ae60;
+    margin-block: 2rem;
+    font-size: 35px;
+  }
+  
+  h2 {
+    margin-block: 1rem;
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 25px;
+    color: lightgrey;
+  }
+  
+  .p2 {
+    font-size: 20px;
+    color: lightgrey;
+    margin-block: 1rem;
+  }
+  
+  .sideBar{       
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;    
+    
+    height: 88%;
+    width: 50;
+    position: fixed;
+    z-index: 1;
+    top: 120px;
+    left: 0;
+    background-color: #222;
+    overflow-x: hidden;   /* Disable scroll bar*/
+    transition: 0.5s;
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444;
+    padding-top: 0;      
+  }
+
+  #desktop{
+    display: block;
+  }
+
+  #mobile{
+    display: none;
+  }
+
+
+  #mySideBar{
+    display: none;
+  }
+
+  #mySmallSidebar{
+    display: block;
   }
 
   .bodyBox {
@@ -255,6 +311,81 @@ a:visited {
     align-items: flex-start;
     height: fit-content;
   }
+}
+
+
+@media only screen and (min-width: 992px) 
+{
+h1 {
+  color: #27ae60;
+  margin-block: 2rem;
+  font-size: 35px;
+}
+
+h2 {
+  margin-block: 1rem;
+  font-size: 30px;
+}
+
+p {
+  font-size: 25px;
+  color: lightgrey;
+}
+
+.p2 {
+  font-size: 20px;
+  color: lightgrey;
+  margin-block: 1rem;
+}
+  .sideBar{
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;    
+  
+    height: 88%;
+    width: 250;
+    position: fixed;
+    z-index: 1;
+    top: 120px;
+    left: 0;
+    background-color: #222;
+    overflow-x: hidden;   /* Disable scroll bar*/
+    transition: 0.5s;
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444;
+    padding-top: 0;  
+  }
+
+
+  #desktop{
+    display: block;
+  }
+
+  #mobile{
+    display: none;
+  }
+
+  #mySmallSideBar{
+    display: none;
+  }
+
+  #mySideBar{
+    display: flex;
+  }
+
+  .bodyBox {
+    background-color: #1E1E1E;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    width: 100%;
+    height: 90%;
+    padding: 1%;
+    color: aliceblue;
+    text-align: center;
+    align-items: flex-start;
+    height: fit-content;
+    }
 }
 
 .layer1{
@@ -284,6 +415,7 @@ a:visited {
 }
 
 .outBody {
+  
   display: block;
   width: 100%;
   background-color: #1E1E1E;

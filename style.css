@@ -12,6 +12,10 @@
   scroll-behavior: smooth;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
 
 .menuFont{
   font-size: 25px;
@@ -185,6 +189,10 @@ a:visited {
     margin-block: 1rem;
   }
   
+  ul{
+    font-size: 10px;
+  }
+
   .sideBar{       
     display: flex;
     flex-direction: column;
@@ -261,6 +269,10 @@ a:visited {
     color: lightgrey;
     margin-block: 1rem;
   }
+
+  ul{
+    font-size: 20px;
+  }
   
   .sideBar{       
     display: flex;
@@ -314,7 +326,7 @@ a:visited {
 }
 
 
-@media only screen and (min-width: 992px) 
+@media only screen and (min-width: 1322px) 
 {
 h1 {
   color: #27ae60;
@@ -356,7 +368,9 @@ p {
     padding-top: 0;  
   }
 
-
+  ul{
+    font-size: 20px;
+  }
   #desktop{
     display: block;
   }

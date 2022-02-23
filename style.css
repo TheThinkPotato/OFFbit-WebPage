@@ -12,6 +12,22 @@
   scroll-behavior: smooth;
 }
 
+
+
+
+* a:link,
+a:visited {
+  color: aliceblue;  
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+
+* a:hover {   
+  color: rgb(76, 189, 101);     
+}
+
 img {
   max-width: 100%;
   max-height: 100%;

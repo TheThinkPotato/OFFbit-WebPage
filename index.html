@@ -102,7 +102,7 @@
                     <h2>BSEL Mod.</h2>
                     <a href="https://youtu.be/MTEVRqEGXFE" target="_blank"><p><img src="images/BSEL.jpg" alt="Play List Image"></a>
                     <p class="p2">The Tape BSEL Mod. A mod for the core 2 CPUs that changes the FSB clock by 
-                        tricking the motherbaord to think it's CPU runs at a higher FSB. Giving us an overclock, 
+                        tricking the motherboard to think it's CPU runs at a higher FSB. Giving us an overclock, 
                         This is a good way to overclock OEM PCs that have no overclocking control in their BIOS.</p>                        
                 </div>
             </div>
@@ -111,7 +111,7 @@
                 <div class="itemBoxParagraph">
                     <h2>LGA 771 to 775 Mod.</h2>
                     <a href="https://youtu.be/gxWxE0qLwwY" target="_blank"><p><img src="images/771.jpg" alt="Play List Image"></a>
-                    <p class="p2">This mod will enable LGA 771 CPUs into a standard LGA 775 motherbaord.
+                    <p class="p2">This mod will enable LGA 771 CPUs into a standard LGA 775 motherboard.
                         This mod requires hardware and bios mods for it to work.</p>
                 </div>
             </div>                
@@ -315,7 +315,365 @@
                         </div>
                 </div>
             </div>
-            <div class="endBox"></div>  
+            <div class="endBox"></div> 
+
+            <div class="bodyBox flexBox-container bodyBoxScroll" id="LGA 771 Mod">
+                <H1>LGA 771 Mods</H1>
+
+                <div class="itemBox">
+                    <div class="itemBoxParagraph">
+                        <h2>LGA 771 Mod</h2>
+                        <a href="https://youtu.be/gxWxE0qLwwY" target="_blank"><p><img src="images/771.jpg" alt="Play List Image"></a>
+                            <p class="p2">This mod will enable LGA 771 CPUs into a standard LGA 775 motherboard.
+                                This mod requires hardware and bios mods for it to work. See details below about the mod.</p>   
+                    </div>
+                            
+                    <div style="margin: auto; width: 90%;">
+                        <div class="extraMarginBlock line"></div>
+                        <h2 class="extraMarginBlock">Motherboard Chipset Support</h2>
+                        <p class="p2"> The following motherboard chipsets have support for coresponding xeons.</p>
+
+                        <table>
+                            <tr>
+                                <th style="column-width: 67%;">Chipset</th>
+                                <th style="column-width: 33%;">Core 2 Xeon 5000 series</th>
+                                <th style="column-width: 33%;">Core 2 Xeon 3000 series</th>                                    
+                            </tr>
+                            <tr>
+                                <td>P45, P43, P35, P31, P965
+                                    G45, G43, G41, G35, G33, G31
+                                    nForce 790i, 780i, 740i, 630i
+                                    GeForce 9400, 9300</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>Q45, Q43, Q35, Q33
+                                    X48, X38</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>nForce 680i and 650i</td>
+                                <td>?</td>
+                                <td>Yes</td>
+                            </tr>
+                            </table>
+                            <p class="p2" style="text-align: left; font-weight: bold;">Known Issues</p>
+                            <ul style="padding-left: 5%;">    
+                            <li class="p2" style="text-align: left">There are isues with this mod and intel built motherboards.</li>
+                            <li class="p2" style="text-align: left;">Nvidia nForce 680i and 650i don't officialy support 45nm quad cores.</li>
+                            <li class="p2" style="text-align: left;">Not all Xeon CPUs FSB are supported by motherboards 
+                                (1600 MT/s either does not boot or only recognises as 1333 MT/s).</li>
+                            <li class="p2" style="text-align: left;">Make sure CPU TDP is within specification of your motherboard.</li>
+                            </ul>       
+                        <div class="extraMarginBlock"></div>
+                        
+
+                        <div class="extraMarginBlock line"></div>
+
+                        <h2 class="extraMarginBlock">LGA 771 Xeon CPUs</h2>
+                        <ul style="padding-left: 5%;">
+                        <li class="p2" style="text-align: left;">3000 series Xeons support 1 CPU where 5000 Series Xeons Support 2 CPUs on a server / workstation motherboard.</li>
+                        <li class="p2" style="text-align: left;">Most 3000 series Xeons use LGA 775 but some do use LGA 771.</li>
+                        </ul>
+                        <table>
+                            <tr>        
+                                <th>Model</th>
+                                <th>Cores</th>
+                                <th>Clock Speed</th>
+                                <th>L2 Cache</th>
+                                <th>FSB</th>
+                                <th>TDP</th>
+                            </tr>
+                            <tr class="tableCat"><td colspan="8" class="tableCat">Quad Core - Harpertown (45nm) Socket 771</td></tr>
+                            <tr>
+                                <td>Xeon E5405</td>
+                                <td>4</td>
+                                <td>2 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>80 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon E5410</td>
+                                <td>4</td>
+                                <td>2.33 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>80 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon E5420</td>
+                                <td>4</td>
+                                <td>2.5 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>80 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon E5430</td>                                
+                                <td>4</td>
+                                <td>2.67 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>80 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon E5440</td>
+                                <td>4</td>
+                                <td>2.83 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>80 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon E5450</td>
+                                <td>4</td>
+                                <td>3 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>80 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon X5450</td>
+                                <td>4</td>
+                                <td>3 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>120 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon X5460</td>
+                                <td>4</td>
+                                <td>3.17 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>120 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon X5462</td>
+                                <td>4</td>
+                                <td>2.8 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1600 MT/s</td>
+                                <td>120 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon X5470</td>
+                                <td>4</td>
+                                <td>3.33 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>120 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon E5472</td>
+                                <td>4</td>
+                                <td>3 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1600 MT/s</td>
+                                <td>80 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon X5472</td>
+                                <td>4</td>
+                                <td>3 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1600 MT/s</td>
+                                <td>120 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon X5482</td>
+                                <td>4</td>
+                                <td>3.2 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1600 MT/s</td>
+                                <td>150 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon X5492</td>
+                                <td>4</td>
+                                <td>3.4 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1600 MT/s</td>
+                                <td>150 W</td>
+                                
+                            </tr>
+                            <tr class="tableCat"><td colspan="8" class="tableCat">Quad Core - Harpertown (45nm) Socket 771 Low Power</td></tr>
+                            
+                            <tr>
+                                <td>Xeon L5408</td>
+                                <td>4</td>
+                                <td>2.13 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1066 MT/s</td>
+                                <td>40 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon L5410</td>
+                                <td>4</td>
+                                <td>2.33 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>50 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon L5420</td>
+                                <td>4</td>
+                                <td>2.5 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>50 W</td>
+                            </tr>
+                            <tr>
+                                <td>Xeon L5430</td>
+                                <td>4</td>
+                                <td>2.67 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>50 W</td>
+                            </tr>
+                        </table>
+                        <div class="extraMarginBlock"></div>
+
+                        <table>
+                            <tr>        
+                                <th>Model</th>
+                                <th>Cores</th>
+                                <th>Clock Speed</th>
+                                <th>L2 Cache</th>
+                                <th>FSB</th>
+                                <th>TDP</th>
+                            </tr>
+                            <tr class="tableCat"><td colspan="8" class="tableCat">Dual Core - Wolfdale-DP (45nm) Socket 771</td></tr>
+                            <tr>
+                                <td>Xeon E5205</td>                                    
+                                <td>2</td>
+                                <td>1.87 Ghz</td>
+                                <td>6 MB</td>
+                                <td>1066 MT/s</td>
+                                <td>65 W</td>                                    
+                            </tr>
+                            <tr>
+                                <td>Xeon E5220</td>                                    
+                                <td>2</td>
+                                <td>2.33 Ghz</td>
+                                <td>6 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>65 W</td>                                    
+                            </tr>
+                            <tr>
+                                <td>Xeon E5240</td>                                    
+                                <td>2</td>
+                                <td>3 Ghz</td>
+                                <td>6 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>65 W</td>                                    
+                            </tr>
+                            <tr>
+                                <td>Xeon X5260</td>                                    
+                                <td>2</td>
+                                <td>3.33 Ghz</td>
+                                <td>6 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>80 W</td>    
+                            </tr>
+                            <tr>
+                                <td>Xeon X5270</td>                                    
+                                <td>2</td>
+                                <td>3.5 Ghz</td>
+                                <td>6 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>80 W</td>                                    
+                            </tr>
+                            <tr>
+                                <td>Xeon X5272</td>                                    
+                                <td>2</td>
+                                <td>3.4 Ghz</td>
+                                <td>6 MB</td>
+                                <td>1600 MT/s</td>
+                                <td>80 W</td>                                    
+                            </tr>
+
+                            <tr class="tableCat"><td colspan="8" class="tableCat">Quad Core - Harpertown (45nm) Socket 771 Low Power</td></tr>
+                            
+                            <tr>
+                                <td>Xeon L5215</td>                                    
+                                <td>2</td>
+                                <td>1.87 Ghz</td>
+                                <td>6 MB</td>
+                                <td>1066 MT/s</td>
+                                <td>20 W</td>                      
+                            </tr>
+                            <tr>
+                                <td>Xeon L5238</td>                                    
+                                <td>2</td>
+                                <td>2.67 Ghz</td>
+                                <td>6 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>35 W</td>                                    
+                            </tr>
+                            <tr>
+                                <td>Xeon L5240</td>                                    
+                                <td>2</td>
+                                <td>3 Ghz</td>
+                                <td>6 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>40 W</td>                                    
+                            </tr>
+                            <tr>
+                                <td>Xeon L5248</td>                                    
+                                <td>2</td>
+                                <td>3 Ghz</td>
+                                <td>6 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>55 W</td>
+                                
+                            </tr>
+                        </table>
+                        <div class="extraMarginBlock"></div>
+
+                        <table>
+                            <tr>        
+                                <th>Model</th>
+                                <th>Cores</th>
+                                <th>Clock Speed</th>
+                                <th>L2 Cache</th>
+                                <th>FSB</th>
+                                <th>TDP</th>
+                            </tr>
+                            <tr class="tableCat"><td colspan="8" class="tableCat">Quad Core - Yorkfield-CL (45nm) Socket 771</td></tr>
+                            <tr>
+                                <td>Xeon X3323</td>                                    
+                                <td>4</td>
+                                <td>2.5 Ghz</td>
+                                <td>6 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>80 W</td>                                    
+                            </tr>
+                            <tr>
+                                <td>Xeon X3353</td>                                    
+                                <td>4</td>
+                                <td>2.67 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>80 W</td>                                    
+                            </tr>
+                            <tr>
+                                <td>Xeon X3363</td>                                    
+                                <td>4</td>
+                                <td>2.83 Ghz</td>
+                                <td>12 MB</td>
+                                <td>1333 MT/s</td>
+                                <td>80 W</td>                                    
+                            </tr>
+                        </table>
+                        <div class="extraMarginBlock"></div>
+                        
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>    

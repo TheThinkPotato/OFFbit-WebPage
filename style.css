@@ -23,10 +23,46 @@ a:visited {
   text-align: center;
 }
 
+.tableCat{
+  background-color: #176e30 !important;
+  text-align: left;
+  color: aliceblue;
+  text-align: left;
+}
+
+table{  
+  border-collapse: collapse;
+  border: 2px solid #444;
+  width: 100%;
+  margin: auto;
+}
+
+th {
+  background-color: #922;
+  padding: 15px;
+  color: aliceblue;
+  border: 0px solid #622;
+}
+
+
+
+tr:nth-child(even) {background-color: #333;}
+
+tr:hover {
+  background-color: #374e30;}
+
+
+
+td {
+text-align: center;
+color: lightgrey;
+padding: 15px;
+}
 
 * a:hover {   
   color: rgb(76, 189, 101);     
 }
+
 
 img {
   max-width: 100%;

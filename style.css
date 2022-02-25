@@ -63,6 +63,13 @@ padding: 15px;
   color: rgb(76, 189, 101);     
 }
 
+.textLeftSpace{
+  padding-left: 5%;
+}
+
+.textLeft {
+  text-align: start;
+}
 
 img {
   max-width: 100%;
@@ -229,6 +236,11 @@ a:visited {
     font-size: 16px;
     margin-block: 1rem;
   }
+
+  h3{
+    font-size: 16px;
+    font-weight: bold;
+  }
   
   p {
     font-size: 10px;
@@ -245,6 +257,24 @@ a:visited {
     font-size: 10px;
   }
 
+  ol{
+    font-size: 10px;
+  }
+
+.warning{
+  color: #D22 !important;
+  font-weight: bold !important;
+}
+
+.warningBox{
+  width: 90%;
+  border: 1px solid #555;
+  margin: auto;
+}
+
+  .listLeftSpace{
+    padding-left: 10%;
+  }
   .sideBar{       
     display: flex;
     flex-direction: column;
@@ -310,6 +340,11 @@ a:visited {
   h2 {
     margin-block: 1rem;
     font-size: 30px;
+  }
+
+  h3{
+    font-size: 20px;
+    font-weight: bold;
   }
   
   p {
@@ -391,6 +426,11 @@ h1 {
 h2 {
   margin-block: 1rem;
   font-size: 30px;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 p {
@@ -577,9 +617,6 @@ p {
   margin: auto;
 }
 
-.textLeft {
-  text-align: start;
-}
 
 .line{
   

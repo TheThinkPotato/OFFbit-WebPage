@@ -28,6 +28,8 @@
                 <a href="#Laptops"><p class="menuFont">G</p><div class="menuText""></div>Laptop Upgrades</a></div>
             <div class="flexBox-container" id="menuButton">
                 <a href="#Software"><p class="menuFont">H</p><div class="menuText"></div>Tools & Software</a></div>
+            <div class="flexBox-container" id="menuButton">
+                <a href="#771"><p class="menuFont">I</p><div class="menuText"></div>LGA 771 to 775 Xeon MOD</a></div>
         </div>
 
 
@@ -48,12 +50,15 @@
                 <a href="#Laptops" class="menuFont" style="padding-left: 10px; font-size: 25px;">G</a></div>
             <div class="flexBox-container" id="menuButton">
                 <a href="#Software" class="menuFont" style="padding-left: 10px; font-size: 25px;">H</a></div>
-            <div id="mobile">
-                <div class="extraMarginBlock"></div>
-                <div class="flexBox-container">
-                    <a href="https://www.patreon.com/OFFbit" style="padding-left: 0px; padding-bottom: 20px;"><img src="PatreonSmall.png" alt="Patreon" width="40px"></a></div>
-                <div class="flexBox-container">
-                    <a href="https://www.youtube.com/channel/UC4_lTAeps_2kk0oy4Bh-klg" style="padding-left: 0px; padding-bottom: 20px;"><img src="YoutubeSmall.png" alt="Youtube" width="40px"></a></div>
+            <div class="flexBox-container" id="menuButton">
+                <a href="#771" class="menuFont" style="padding-left: 10px; font-size: 25px;">I</a></div>
+            
+                <div id="mobile">
+            <div class="extraMarginBlock"></div>
+            <div class="flexBox-container">
+                <a href="https://www.patreon.com/OFFbit" style="padding-left: 0px; padding-bottom: 20px;"><img src="PatreonSmall.png" alt="Patreon" width="40px"></a></div>
+            <div class="flexBox-container">
+                <a href="https://www.youtube.com/channel/UC4_lTAeps_2kk0oy4Bh-klg" style="padding-left: 0px; padding-bottom: 20px;"><img src="YoutubeSmall.png" alt="Youtube" width="40px"></a></div>
             </div>
         </div>
 
@@ -102,7 +107,7 @@
                     <h2>BSEL Mod.</h2>
                     <a href="https://youtu.be/MTEVRqEGXFE" target="_blank"><p><img src="images/BSEL.jpg" alt="Play List Image"></a>
                     <p class="p2">The Tape BSEL Mod. A mod for the core 2 CPUs that changes the FSB clock by 
-                        tricking the motherbaord to think it's CPU runs at a higher FSB. Giving us an overclock, 
+                        tricking the motherboard to think it's CPU runs at a higher FSB. Giving us an overclock, 
                         This is a good way to overclock OEM PCs that have no overclocking control in their BIOS.</p>                        
                 </div>
             </div>
@@ -111,7 +116,7 @@
                 <div class="itemBoxParagraph">
                     <h2>LGA 771 to 775 Mod.</h2>
                     <a href="https://youtu.be/gxWxE0qLwwY" target="_blank"><p><img src="images/771.jpg" alt="Play List Image"></a>
-                    <p class="p2">This mod will enable LGA 771 CPUs into a standard LGA 775 motherbaord.
+                    <p class="p2">This mod will enable LGA 771 CPUs into a standard LGA 775 motherboard.
                         This mod requires hardware and bios mods for it to work.</p>
                 </div>
             </div>                
@@ -315,7 +320,521 @@
                         </div>
                 </div>
             </div>
-            <div class="endBox"></div>  
+            <div class="endBox"></div> 
+
+            <div class="bodyBox flexBox-container bodyBoxScroll" id="771">
+                <H1>LGA 771 Mods</H1>
+
+                <div class="itemBox">
+                    <div class="itemBoxParagraph">
+                        <h2>LGA 771 Mod</h2>
+                        <a href="https://youtu.be/gxWxE0qLwwY" target="_blank"><p><img src="images/771.jpg" alt="Play List Image"></a>
+                            <p class="p2">This mod will enable LGA 771 CPUs into a standard LGA 775 motherboard.
+                                This mod requires hardware and bios mods for it to work. See details below about the mod.</p>   
+                    </div>
+                            
+                    <div style="margin: auto; width: 90%;">
+                        <div class="extraMarginBlock line"></div>
+                        <h2 class="extraMarginBlock">Motherboard Chipset Support</h2>
+                        <p class="p2"> The following motherboard chipsets have support for coresponding xeons.</p>
+
+                        <table>
+                            <tr>
+                                <th style="column-width: 67%;">Chipset</th>
+                                <th style="column-width: 33%;">Core 2 Xeon 5000 series</th>
+                                <th style="column-width: 33%;">Core 2 Xeon 3000 series</th>                                    
+                            </tr>
+                            <tr>
+                                <td>P45, P43, P35, P31, P965
+                                    G45, G43, G41, G35, G33, G31
+                                    nForce 790i, 780i, 740i, 630i
+                                    GeForce 9400, 9300</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>Q45, Q43, Q35, Q33
+                                    X48, X38</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>nForce 680i and 650i</td>
+                                <td>?</td>
+                                <td>Yes</td>
+                            </tr>
+                            </table>
+                            <p class="p2" style="text-align: left; font-weight: bold;">Known Issues</p>
+                            <ul class = "textLeftSpace"> 
+                            <li class="p2 textLeft">There are issues with this mod and intel built motherboards.</li>
+                            <li class="p2 textLeft">Nvidia nForce 680i and 650i don't officialy support 45nm quad cores.</li>
+                            <li class="p2 textLeft">Not all Xeon CPUs FSB are supported by motherboards 
+                                (1600 MT/s either does not boot or only recognises as 1333 MT/s).</li>
+                            <li class="p2 textLeft">Make sure CPU TDP is within specification of your motherboard.</li>
+                            </ul>       
+                        <div class="extraMarginBlock"></div>
+                        
+
+                        <div class="extraMarginBlock line"></div>
+
+                        <h2 class="extraMarginBlock">LGA 771 Xeon CPUs</h2>
+                        <ul class = "textLeftSpace">
+                            <li class="p2 textLeft">3000 series Xeons support 1 CPU where 5000 Series Xeons Support 2 CPUs on a server / workstation motherboard.</li>
+                            <li class="p2 textLeft">Most 3000 series Xeons use LGA 775 but some do use LGA 771.</li>
+                        </ul>
+                        <div id="desktop">
+                            <table>
+                                <tr>        
+                                    <th>Model</th>
+                                    <th>Cores</th>
+                                    <th>Clock Speed</th>
+                                    <th>L2 Cache</th>
+                                    <th>FSB</th>
+                                    <th>TDP</th>
+                                </tr>
+                                <tr class="tableCat"><td colspan="8" class="tableCat">Quad Core - Harpertown (45nm) Socket 771</td></tr>
+                                <tr>
+                                    <td>Xeon E5405</td>
+                                    <td>4</td>
+                                    <td>2 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>80 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon E5410</td>
+                                    <td>4</td>
+                                    <td>2.33 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>80 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon E5420</td>
+                                    <td>4</td>
+                                    <td>2.5 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>80 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon E5430</td>                                
+                                    <td>4</td>
+                                    <td>2.67 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>80 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon E5440</td>
+                                    <td>4</td>
+                                    <td>2.83 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>80 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon E5450</td>
+                                    <td>4</td>
+                                    <td>3 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>80 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon X5450</td>
+                                    <td>4</td>
+                                    <td>3 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>120 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon X5460</td>
+                                    <td>4</td>
+                                    <td>3.17 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>120 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon X5462</td>
+                                    <td>4</td>
+                                    <td>2.8 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1600 MT/s</td>
+                                    <td>120 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon X5470</td>
+                                    <td>4</td>
+                                    <td>3.33 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>120 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon E5472</td>
+                                    <td>4</td>
+                                    <td>3 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1600 MT/s</td>
+                                    <td>80 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon X5472</td>
+                                    <td>4</td>
+                                    <td>3 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1600 MT/s</td>
+                                    <td>120 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon X5482</td>
+                                    <td>4</td>
+                                    <td>3.2 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1600 MT/s</td>
+                                    <td>150 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon X5492</td>
+                                    <td>4</td>
+                                    <td>3.4 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1600 MT/s</td>
+                                    <td>150 W</td>
+                                    
+                                </tr>
+                                <tr class="tableCat"><td colspan="8" class="tableCat">Quad Core - Harpertown (45nm) Socket 771 Low Power</td></tr>
+                                
+                                <tr>
+                                    <td>Xeon L5408</td>
+                                    <td>4</td>
+                                    <td>2.13 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1066 MT/s</td>
+                                    <td>40 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon L5410</td>
+                                    <td>4</td>
+                                    <td>2.33 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>50 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon L5420</td>
+                                    <td>4</td>
+                                    <td>2.5 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>50 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Xeon L5430</td>
+                                    <td>4</td>
+                                    <td>2.67 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>50 W</td>
+                                </tr>
+                            </table>
+                            <div class="extraMarginBlock"></div>
+
+                            <table>
+                                <tr>        
+                                    <th>Model</th>
+                                    <th>Cores</th>
+                                    <th>Clock Speed</th>
+                                    <th>L2 Cache</th>
+                                    <th>FSB</th>
+                                    <th>TDP</th>
+                                </tr>
+                                <tr class="tableCat"><td colspan="8" class="tableCat">Dual Core - Wolfdale-DP (45nm) Socket 771</td></tr>
+                                <tr>
+                                    <td>Xeon E5205</td>                                    
+                                    <td>2</td>
+                                    <td>1.87 Ghz</td>
+                                    <td>6 MB</td>
+                                    <td>1066 MT/s</td>
+                                    <td>65 W</td>                                    
+                                </tr>
+                                <tr>
+                                    <td>Xeon E5220</td>                                    
+                                    <td>2</td>
+                                    <td>2.33 Ghz</td>
+                                    <td>6 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>65 W</td>                                    
+                                </tr>
+                                <tr>
+                                    <td>Xeon E5240</td>                                    
+                                    <td>2</td>
+                                    <td>3 Ghz</td>
+                                    <td>6 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>65 W</td>                                    
+                                </tr>
+                                <tr>
+                                    <td>Xeon X5260</td>                                    
+                                    <td>2</td>
+                                    <td>3.33 Ghz</td>
+                                    <td>6 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>80 W</td>    
+                                </tr>
+                                <tr>
+                                    <td>Xeon X5270</td>                                    
+                                    <td>2</td>
+                                    <td>3.5 Ghz</td>
+                                    <td>6 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>80 W</td>                                    
+                                </tr>
+                                <tr>
+                                    <td>Xeon X5272</td>                                    
+                                    <td>2</td>
+                                    <td>3.4 Ghz</td>
+                                    <td>6 MB</td>
+                                    <td>1600 MT/s</td>
+                                    <td>80 W</td>                                    
+                                </tr>
+
+                                <tr class="tableCat"><td colspan="8" class="tableCat">Quad Core - Harpertown (45nm) Socket 771 Low Power</td></tr>
+                                
+                                <tr>
+                                    <td>Xeon L5215</td>                                    
+                                    <td>2</td>
+                                    <td>1.87 Ghz</td>
+                                    <td>6 MB</td>
+                                    <td>1066 MT/s</td>
+                                    <td>20 W</td>                      
+                                </tr>
+                                <tr>
+                                    <td>Xeon L5238</td>                                    
+                                    <td>2</td>
+                                    <td>2.67 Ghz</td>
+                                    <td>6 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>35 W</td>                                    
+                                </tr>
+                                <tr>
+                                    <td>Xeon L5240</td>                                    
+                                    <td>2</td>
+                                    <td>3 Ghz</td>
+                                    <td>6 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>40 W</td>                                    
+                                </tr>
+                                <tr>
+                                    <td>Xeon L5248</td>                                    
+                                    <td>2</td>
+                                    <td>3 Ghz</td>
+                                    <td>6 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>55 W</td>
+                                    
+                                </tr>
+                            </table>
+                            <div class="extraMarginBlock"></div>
+
+                            <table>
+                                <tr>        
+                                    <th>Model</th>
+                                    <th>Cores</th>
+                                    <th>Clock Speed</th>
+                                    <th>L2 Cache</th>
+                                    <th>FSB</th>
+                                    <th>TDP</th>
+                                </tr>
+                                <tr class="tableCat"><td colspan="8" class="tableCat">Quad Core - Yorkfield-CL (45nm) Socket 771</td></tr>
+                                <tr>
+                                    <td>Xeon X3323</td>                                    
+                                    <td>4</td>
+                                    <td>2.5 Ghz</td>
+                                    <td>6 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>80 W</td>                                    
+                                </tr>
+                                <tr>
+                                    <td>Xeon X3353</td>                                    
+                                    <td>4</td>
+                                    <td>2.67 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>80 W</td>                                    
+                                </tr>
+                                <tr>
+                                    <td>Xeon X3363</td>                                    
+                                    <td>4</td>
+                                    <td>2.83 Ghz</td>
+                                    <td>12 MB</td>
+                                    <td>1333 MT/s</td>
+                                    <td>80 W</td>                                    
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="extraMarginBlock"></div>
+                        
+                        
+                        <div class="extraMarginBlock line"></div>
+
+                        <h2 class="extraMarginBlock" id="CPU-Mobo Mod">CPU / Motherbaord Socket Modification</h2>
+                        <p class="p2 textLeft textLeftSpace">There are 2 ways to modify the socket</p>
+                        <ol class="p2 textLeft listLeftSpace">
+                            <li>Cut notches into the CPU</li>
+                            <li>Cut tabs of CPU Socket on Motherbaord</li>
+                        </ol>
+                        <div class="extraMarginBlock warningBox">
+                            <p class="p2 textLeft textLeftSpace warning">WARNING!
+                            </p>
+                            <p class="p2 textLeft textLeftSpace">Moddifying your CPU or Motherboard is a risky process and can cause
+                                permenant failure please do this mod at your own RISK.
+                            </p>
+                        </div>
+                        <div class="extraMarginBlock"></div>
+                        <h3 class="textLeft textLeftSpace">Method 1.</h3>
+                        <div style="width: 50%; display: flex;">
+                            <img src="images/771/771-775 a.png" alt="Normal CPU">
+                            <img src="images/771/771-775 B.png" alt="Normal CPU">
+                        </div>
+                        <div class="extraMarginBlock"></div>
+                        
+                        <h3 class="textLeft textLeftSpace">Method 2.</h3>
+                        <div class="extraMarginBlock"></div>
+                        <div style="width: 90%; display: flex; margin: auto;">
+                            <div style="width: 90%; padding-right: 5%;">
+                                <img src="images/771/775 Socket.png" alt="Normal CPU">
+                            </div>
+                            <div style="width: 90%; padding-left: 5%;">
+                                <img src="images/771/775 socket cut.png" alt="Normal CPU">
+                            </div>
+                        </div>
+                        <div class="extraMarginBlock"></div>
+                        <div class="extraMarginBlock line"></div>
+
+                        <h2 class="extraMarginBlock" id="CPU-Mobo Mod">CPU Pin Swap</h2>
+                        <p class="p2 textLeft textLeftSpace">The differnce between a socket 771 and a socket 775 cpu is the pinout and the alignment notches. 
+                            
+                        </p>
+                        <p class="p2 textLeft textLeftSpace">Once you have sorted out the alignment notches we need to switch the pins around with a sticker made to do the job.
+                            These stickers can be purchase from <a href="https://www.ebay.com/sch/i.html?_from=R40&_nkw=lga+771+775+adapter&_sacat=0&_sop=15">Ebay</a>.
+                            <div class="extraMarginBlock"></div>
+                            <div style="width: 90%; display: flex; margin: auto;">
+                                <div style="width: 90%; padding-right: 5%;">
+                                    <img src="images/771/771 with sticker.png" alt="771 Sticker On CPU">
+                                </div>
+                                <div style="width: 90%; padding-left: 5%;">
+                                    <img src="images/771//771 - 775 STICKER.png" alt="771 Adapter Sticker">
+                                </div>
+                            </div>
+                        <div class="extraMarginBlock"></div>
+                        <div class="extraMarginBlock line"></div>
+
+                        <h2 class="extraMarginBlock" id="CPU-Mobo Mod">BIOS Modification</h2>
+                        <p class="p2 textLeft textLeftSpace">The final modification to do is to add the microcode patches to your bios</p>
+                        <div class="extraMarginBlock warningBox">
+                            <p class="p2 textLeft textLeftSpace warning">WARNING!
+                            </p>
+                            <p class="p2 textLeft textLeftSpace">Moddifying your BIOS is a very risky process and can cause
+                                permenant failure please do this mod at your own RISK.
+                            </p>
+                        </div>
+                        
+                        <h3 class="textLeft textLeftSpace">Steps</h3>                        
+                        <ol class="p2 textLeft listLeftSpace">
+                            <li>Download your latest motherboard BIOS</li>
+                            <li>Work out if your BIOS is an Award or AMI Bios</li>
+                            <li>Download the Core 2 Microcode code patches</li>
+                            <li>Downloadn and use the correct BIOS tool to modify your BIOS</li>
+                            <li>Use the tool to add new microcode to your BIOS and Save</li>
+                            <li>Flash new bios to motherbaord</li>
+                            <li>Reboot and Pray everything was done correctly</li>
+                            
+                        </ol>
+                        <h3 class="textLeft textLeftSpace extraMarginBlock">Step 1.</h3>                        
+                        <p class="p2 textLeft textLeftSpace">Common Motherbaords Manufacturers</p>
+
+                        <div class="extraMarginBlock"></div>
+                        <ul class="p2 textLeft listLeftSpace">
+                            <li><a href="https://www.asrock.com/">Asrock</a></li>
+                            <li><a href="https://www.asus.com/au/">Asus</a></li>
+                            <li><a href="https://www.gigabyte.com/">Gigabyte</a></li>                    
+                        </ul>
+
+                        <div class="extraMarginBlock"></div>
+                        <h3 class="textLeft textLeftSpace extraMarginBlock">Step 2.</h3>   
+                        <p class="p2 textLeft textLeftSpace">Identify your BIOS:</p>
+                        <div style="width: 90%; display: flex; margin: auto;">
+                            <div style="width: 90%; padding-right: 5%;">
+                                <div><p>AMI BIOS</p></div>
+                                <img src="images/771/Bios-Ami.png" alt="Normal CPU">
+                            </div>
+                            <div style="width: 90%; padding-left: 5%;">
+                                <div><p>Pheonix / Award</p></div>
+                                <img src="images/771//Bios-Award.png" alt="Normal CPU">                                
+                            </div>
+                        </div>  
+                        <div class="extraMarginBlock"></div>
+
+                        <div class="extraMarginBlock"></div>
+                        <h3 class="textLeft textLeftSpace extraMarginBlock">Step 3.</h3>   
+                        <p class="p2 textLeft textLeftSpace">Download Core2 Microcode Patches:</p>
+                        
+                        <div class="flexBox-container extraMarginBlock" id="DLButton">
+                            <a href="Files/microcode.zip">Download</a></div>  
+                        <div class="extraMarginBlock"></div>
+                        <div class="extraMarginBlock"></div>
+
+                        <div class="extraMarginBlock"></div>
+                        <h3 class="textLeft textLeftSpace extraMarginBlock">Step 4.</h3>   
+                        <p class="p2 textLeft textLeftSpace">Download BIOS Editing Tool:</p>
+                        
+                        <div class="flexBox-container">
+                            <div style="padding: 10%;">
+                                <div style="display: block;">
+                                    <p class="p2">AMI BIOS</p>                         
+                                </div>                                
+                                <div class="flexBox-container" id="DLButton">
+                                    <a href="Files/amibcp-4.53.zip">Download</a>
+                                </div>
+                            </div>     
+                            
+                            <div style="padding: 10%;">
+                                <div style="display: block;">
+                                    <p class="p2">Award Pheonix</p>
+                                </div>
+                                
+                                <div class="flexBox-container" id="DLButton">
+                                    <a href="Files/CBROM32_195.zip">Download</a>
+                                </div>                                                              
+                            </div>
+                        </div>
+                        <div class="extraMarginBlock"></div>
+
+                        <div class="extraMarginBlock"></div>
+                        <h3 class="textLeft textLeftSpace extraMarginBlock">Step 5 - 7.</h3>   
+                        
+                        <div class="warningBox">
+                            <p class="p2 textLeft textLeftSpace warning">WARNING!
+                            </p>
+                            <p class="p2 textLeft textLeftSpace">Moddifying your BIOS is a very risky process and can cause
+                                permenant failure please do this mod at your own RISK.
+                            </p>
+                            </div>  
+                        </div>
+
+
+                        <p class="p2 textLeft textLeftSpace"> Your on your own from here on. Untill I finish this section.
+                            Good Luck.                            
+                        </p>
+
+                        <div class="extraMarginBlock"></div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>    

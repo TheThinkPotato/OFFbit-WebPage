@@ -24,8 +24,29 @@ a:visited {
 }
 
 
+tr:nth-child(even) {background-color: #333;}
+
+tr:hover {
+  background-color: #374e30;}
+
+
+
+td {
+text-align: center;
+color: lightgrey;
+padding: 15px;
+}
+
 * a:hover {   
   color: rgb(76, 189, 101);     
+}
+
+.textLeftSpace{
+  padding-left: 5%;
+}
+
+.textLeft {
+  text-align: start;
 }
 
 img {
@@ -193,6 +214,11 @@ a:visited {
     font-size: 16px;
     margin-block: 1rem;
   }
+
+  h3{
+    font-size: 16px;
+    font-weight: bold;
+  }
   
   p {
     font-size: 10px;
@@ -209,6 +235,24 @@ a:visited {
     font-size: 10px;
   }
 
+  ol{
+    font-size: 10px;
+  }
+
+.warning{
+  color: #D22 !important;
+  font-weight: bold !important;
+}
+
+.warningBox{
+  width: 90%;
+  border: 1px solid #555;
+  margin: auto;
+}
+
+  .listLeftSpace{
+    padding-left: 10%;
+  }
   .sideBar{       
     display: flex;
     flex-direction: column;
@@ -262,6 +306,27 @@ a:visited {
     align-items: flex-start;
     height: fit-content;
   }
+  .tableCat{   
+    background-color: #176e30 !important;
+    text-align: left;
+    color: aliceblue;
+    text-align: left;
+  }
+  
+  table{      
+    border-collapse: collapse;
+    border: 1px solid #444;
+    width: auto;
+    font-size: 8px;
+  }
+  
+  th {
+    background-color: #922;
+    padding: 0px;
+    color: aliceblue;
+    border: 0px solid #622;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -274,6 +339,11 @@ a:visited {
   h2 {
     margin-block: 1rem;
     font-size: 30px;
+  }
+
+  h3{
+    font-size: 20px;
+    font-weight: bold;
   }
   
   p {
@@ -308,6 +378,7 @@ a:visited {
     border-right: 1px solid #444;
     border-bottom: 1px solid #444;
     padding-top: 0;      
+    
   }
 
   #desktop{
@@ -341,6 +412,28 @@ a:visited {
     align-items: flex-start;
     height: fit-content;
   }
+
+  .tableCat{
+    background-color: #176e30 !important;
+    text-align: left;
+    color: aliceblue;
+    text-align: left;
+  }
+  
+  table{  
+    border-collapse: collapse;
+    border: 2px solid #444;
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  th {
+    background-color: #922;
+    padding: 15px;
+    color: aliceblue;
+    border: 0px solid #622;
+  }
 }
 
 
@@ -355,6 +448,11 @@ h1 {
 h2 {
   margin-block: 1rem;
   font-size: 30px;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 p {
@@ -417,6 +515,28 @@ p {
     text-align: center;
     align-items: flex-start;
     height: fit-content;
+    }
+
+    .tableCat{
+      background-color: #176e30 !important;
+      text-align: left;
+      color: aliceblue;
+      text-align: left;
+    }
+    
+    table{  
+      border-collapse: collapse;
+      border: 2px solid #444;
+      width: 100%;
+      font-size: 20px;
+      margin: auto;
+    }
+    
+    th {
+      background-color: #922;
+      padding: 15px;
+      color: aliceblue;
+      border: 0px solid #622;
     }
 }
 
@@ -541,9 +661,6 @@ p {
   margin: auto;
 }
 
-.textLeft {
-  text-align: start;
-}
 
 .line{
   

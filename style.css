@@ -682,6 +682,9 @@ p {
   display: none;
 }
 
+.tagGap{
+  height: 9rem;
+}
 
 .line{
   width: 100%;

@@ -661,6 +661,27 @@ p {
   margin: auto;
 }
 
+#showGPU-AMD
+{
+  display:contents;
+}
+
+#hideGPU-AMD
+{
+  display: none;
+}
+
+
+#showGPU-NVidia
+{
+  display:contents;
+}
+
+#hideGPU-NVidia
+{
+  display: none;
+}
+
 
 .line{
   width: 100%;

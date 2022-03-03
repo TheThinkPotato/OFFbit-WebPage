@@ -168,7 +168,6 @@ a:visited {
 
 #DLButton a:link,
 a:visited {
-  
   background-color: #eb5757;
   border: 1px solid black;
   display: flex;
@@ -185,6 +184,24 @@ a:visited {
 }
 
 #DLButton a:hover {  
+  background-color: #27ae60;  
+}
+
+#LButton a:link,
+a:visited {
+  
+  justify-content: center;
+  display: inline-flex;
+  background-color: #eb5757;
+  border: 1px solid black;  
+  color: aliceblue;    
+  height: 3rem;
+  width: 9rem;     
+  text-decoration: none;
+  
+}
+
+#LButton a:hover {  
   background-color: #27ae60;  
 }
 

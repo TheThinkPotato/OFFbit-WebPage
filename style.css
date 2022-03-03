@@ -344,6 +344,10 @@ a:visited {
     border: 0px solid #622;
   }
 
+  .tableNotes{
+    font-size: 8px; text-align: left;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -451,6 +455,9 @@ a:visited {
     color: aliceblue;
     border: 0px solid #622;
   }
+  .tableNotes{
+    font-size: 12px; text-align: left;
+  }
 }
 
 
@@ -554,6 +561,9 @@ p {
       padding: 15px;
       color: aliceblue;
       border: 0px solid #622;
+    }
+    .tableNotes{
+      font-size: 12px; text-align: left;
     }
 }
 

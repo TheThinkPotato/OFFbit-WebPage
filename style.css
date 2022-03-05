@@ -196,9 +196,8 @@ a:visited {
   border: 1px solid black;  
   color: aliceblue;    
   height: 3rem;
-  width: 9rem;     
+  width: 100%;
   text-decoration: none;
-  
 }
 
 #LButton a:hover {  

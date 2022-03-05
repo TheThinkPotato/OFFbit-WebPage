@@ -187,23 +187,6 @@ a:visited {
   background-color: #27ae60;  
 }
 
-#LButton a:link,
-a:visited {
-  
-  justify-content: center;
-  display: inline-flex;
-  background-color: #eb5757;
-  border: 1px solid black;  
-  color: aliceblue;    
-  height: 3rem;
-  width: 100%;
-  text-decoration: none;
-}
-
-#LButton a:hover {  
-  background-color: #27ae60;  
-}
-
 .smallLogoText {
   font-size: 1rem;
   text-align: center;
@@ -255,6 +238,21 @@ a:visited {
     font-size: 10px;
   }
 
+  #LButton a:link,
+  a:visited {
+    
+    justify-content: center;
+    display: inline-flex;
+    background-color: #eb5757;
+    border: 1px solid black;  
+    color: aliceblue;    
+    height: 3rem;  
+    text-decoration: none;
+  }
+  
+  #LButton a:hover {  
+    background-color: #27ae60;  
+  }  
 
   .itemBox {
     background-color: #222;
@@ -420,7 +418,23 @@ a:visited {
   ul{
     font-size: 20px;
   }
+
+  #LButton a:link,
+  a:visited {
+    
+    justify-content: center;
+    display: inline-flex;
+    background-color: #eb5757;
+    border: 1px solid black;  
+    color: aliceblue;    
+    height: 3rem;  
+    width: 100%;
+    text-decoration: none;
+  }
   
+  #LButton a:hover {  
+    background-color: #27ae60;  
+  }  
 
   .itemBox {
     background-color: #222;
@@ -591,6 +605,22 @@ p {
     font-size: 20px;
   }
 
+  #LButton a:link,
+  a:visited {
+    
+    justify-content: center;
+    display: inline-flex;
+    background-color: #eb5757;
+    border: 1px solid black;  
+    color: aliceblue;    
+    height: 3rem;  
+    width: 100%;
+    text-decoration: none;
+  }
+  
+  #LButton a:hover {  
+    background-color: #27ae60;  
+  }
 
   .itemBox {
     background-color: #222;

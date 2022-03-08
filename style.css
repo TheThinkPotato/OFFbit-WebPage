@@ -20,6 +20,11 @@ a:visited {
   text-align: center;
 }
 
+* a:hover {
+  color: rgb(76, 189, 101);
+}
+
+
 tr:nth-child(even) {
   background-color: #333;
 }
@@ -32,10 +37,6 @@ td {
   text-align: center;
   color: lightgrey;
   padding: 15px;
-}
-
-* a:hover {
-  color: rgb(76, 189, 101);
 }
 
 .textLeftSpace {

@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @font-face {
-  font-family: 'OFFbitMenu';
-  src: url('./OFFbitMenu.woff');
-}  
+  font-family: "OFFbitMenu";
+  src: url("./OFFbitMenu.woff");
+}
 
 * {
   padding: 0;
@@ -12,36 +12,33 @@
   scroll-behavior: smooth;
 }
 
-
-
-
 * a:link,
 a:visited {
-  color: aliceblue;  
-  
+  color: aliceblue;
+
   align-items: center;
   text-align: center;
 }
 
-
-tr:nth-child(even) {background-color: #333;}
+tr:nth-child(even) {
+  background-color: #333;
+}
 
 tr:hover {
-  background-color: #374e30;}
-
-
+  background-color: #374e30;
+}
 
 td {
-text-align: center;
-color: lightgrey;
-padding: 15px;
+  text-align: center;
+  color: lightgrey;
+  padding: 15px;
 }
 
-* a:hover {   
-  color: rgb(76, 189, 101);     
+* a:hover {
+  color: rgb(76, 189, 101);
 }
 
-.textLeftSpace{
+.textLeftSpace {
   padding-left: 5%;
 }
 
@@ -54,13 +51,13 @@ img {
   max-height: 100%;
 }
 
-.menuFont{
+.menuFont {
   font-size: 25px;
-  font-family: 'OFFbitMenu';
-  padding-left: 0px; 
+  font-family: "OFFbitMenu";
+  padding-left: 0px;
 }
 
-.menuText{
+.menuText {
   padding-left: 15px;
 }
 
@@ -98,12 +95,12 @@ img {
   justify-content: center;
 }
 
-.flex{
+.flex {
   display: flex;
   flex-direction: row;
 }
 
-.flexCol{
+.flexCol {
   display: flex;
   flex-direction: column;
 }
@@ -112,7 +109,7 @@ img {
   /* background-color: black; */
   background-image: url("topbg.jpg");
   border-bottom: 2px solid #444;
-  box-shadow: 0px 3px #181818 ;
+  box-shadow: 0px 3px #181818;
 }
 
 .topBar {
@@ -143,11 +140,12 @@ img {
   top: 0;
 }
 
-#menuButton a:link,
+.menuButton a:link,
 a:visited {
   display: flex;
-  color: aliceblue;     
-  padding: 25px;
+  color: aliceblue;
+  padding-block: 25px;
+  padding-inline: 10px;
   height: 10px;
   width: 100%;
   font-size: 20px;
@@ -156,22 +154,22 @@ a:visited {
   text-decoration: none;
   position: relative;
   margin-top: 0px;
-  margin-inline: 2px;  
+  margin-inline: 2px;
 }
 
-#menuButton a:hover {   
-  background-color: #555;    
-  color: aliceblue;   
+.menuButton a:hover {
+  background-color: #555;
+  color: aliceblue;
   margin-bottom: -3px;
-  border-bottom: 3px solid #922;  
+  border-bottom: 3px solid #922;
 }
 
-#DLButton a:link,
+.DLButton a:link,
 a:visited {
   background-color: #eb5757;
   border: 1px solid black;
   display: flex;
-  color: aliceblue;  
+  color: aliceblue;
   padding: 25px;
   height: 10px;
   width: 140px;
@@ -183,8 +181,8 @@ a:visited {
   margin-inline: 2px;
 }
 
-#DLButton a:hover {  
-  background-color: #27ae60;  
+.DLButton a:hover {
+  background-color: #27ae60;
 }
 
 .smallLogoText {
@@ -193,14 +191,12 @@ a:visited {
   color: grey;
 }
 
-.smallLogo{
+.smallLogo {
   display: block;
   margin: auto;
   border-radius: 50%;
   padding: 1rem;
 }
-
-
 
 @media only screen and (min-width: 280px) {
   h1 {
@@ -208,51 +204,50 @@ a:visited {
     margin-block: 1rem;
     font-size: 16px;
   }
-  
+
   h2 {
     font-size: 16px;
     margin-block: 1rem;
   }
 
-  h3{
+  h3 {
     font-size: 16px;
     font-weight: bold;
   }
-  
+
   p {
     font-size: 10px;
     color: lightgrey;
   }
-  
+
   .p2 {
     font-size: 10px;
     color: lightgrey;
     margin-block: 1rem;
   }
-  
-  ul{
+
+  ul {
     font-size: 10px;
   }
 
-  ol{
+  ol {
     font-size: 10px;
   }
 
-  #LButton a:link,
+  .LButton a:link,
   a:visited {
-    
     justify-content: center;
     display: inline-flex;
     background-color: #eb5757;
-    border: 1px solid black;  
-    color: aliceblue;    
-    height: 3rem;  
+    border: 1px solid black;
+    color: aliceblue;
+    height: 3rem;
     text-decoration: none;
   }
-  
-  #LButton a:hover {  
-    background-color: #27ae60;  
-  }  
+
+  .LButton a:hover {
+    background-color: #27ae60;
+  }
 
   .itemBox {
     background-color: #222;
@@ -266,52 +261,51 @@ a:visited {
     margin: auto;
     margin-bottom: 30px;
   }
-  
-  .itemBoxNoBorder { 
+
+  .itemBoxNoBorder {
     width: 80%;
     height: fit-content;
     border: 1px solid transparent;
-    box-sizing: border-box;  
+    box-sizing: border-box;
     align-items: center;
     margin: auto;
     margin-bottom: 30px;
   }
-  
-  
+
   .itemBoxParagraph {
     width: 80%;
     margin: auto;
   }
-  
+
   .itemBoxParagraphTall {
     object-fit: cover !important;
     width: auto !important;
   }
-  
+
   .itemBoxParagraph img {
     object-fit: cover;
     width: 80%;
   }
 
-.warning{
-  color: #D22 !important;
-  font-weight: bold !important;
-}
+  .warning {
+    color: #d22 !important;
+    font-weight: bold !important;
+  }
 
-.warningBox{
-  width: 90%;
-  border: 1px solid #555;
-  margin: auto;
-}
+  .warningBox {
+    width: 90%;
+    border: 1px solid #555;
+    margin: auto;
+  }
 
-  .listLeftSpace{
+  .listLeftSpace {
     padding-left: 10%;
   }
-  .sideBar{       
+  .sideBar {
     display: flex;
     flex-direction: column;
-    vertical-align: top;    
-    
+    vertical-align: top;
+
     height: 88%;
     width: 50;
     position: fixed;
@@ -319,36 +313,35 @@ a:visited {
     top: 120px;
     left: 0;
     background-color: #222;
-    overflow-x: hidden;   /* Disable scroll bar*/
+    overflow-x: hidden; /* Disable scroll bar*/
     transition: 0.5s;
     border-right: 1px solid #444;
     border-bottom: 1px solid #444;
-    padding-top: 0;      
+    padding-top: 0;
   }
 
-  #desktop{
+  .desktop {
     margin: auto;
     display: none;
   }
 
-  #mobile{
+  .mobile {
     margin: auto;
     display: block;
   }
 
-  #mySideBar{
+  .mySideBar {
     display: none;
   }
 
-  #mySmallSideBar{
+  .mySmallSidebar {
     display: block;
     height: 100%;
   }
 
-
   .bodyBox {
     display: block;
-    background-color: #1E1E1E;
+    background-color: #1e1e1e;
     margin-left: 20%;
     margin-right: auto;
     max-width: 75%;
@@ -360,20 +353,20 @@ a:visited {
     align-items: flex-start;
     height: fit-content;
   }
-  .tableCat{   
+  .tableCat {
     background-color: #176e30 !important;
     text-align: left;
     color: aliceblue;
     text-align: left;
   }
-  
-  table{      
+
+  table {
     border-collapse: collapse;
     border: 1px solid #444;
     width: auto;
     font-size: 8px;
   }
-  
+
   th {
     background-color: #922;
     padding: 0px;
@@ -381,10 +374,10 @@ a:visited {
     border: 0px solid #622;
   }
 
-  .tableNotes{
-    font-size: 8px; text-align: left;
+  .tableNotes {
+    font-size: 8px;
+    text-align: left;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -393,48 +386,47 @@ a:visited {
     margin-block: 2rem;
     font-size: 35px;
   }
-  
+
   h2 {
     margin-block: 1rem;
     font-size: 30px;
   }
 
-  h3{
+  h3 {
     font-size: 20px;
     font-weight: bold;
   }
-  
+
   p {
     font-size: 25px;
     color: lightgrey;
   }
-  
+
   .p2 {
     font-size: 20px;
     color: lightgrey;
     margin-block: 1rem;
   }
 
-  ul{
+  ul {
     font-size: 20px;
   }
 
-  #LButton a:link,
+  .LButton a:link,
   a:visited {
-    
     justify-content: center;
     display: inline-flex;
     background-color: #eb5757;
-    border: 1px solid black;  
-    color: aliceblue;    
-    height: 3rem;  
+    border: 1px solid black;
+    color: aliceblue;
+    height: 3rem;
     width: 100%;
     text-decoration: none;
   }
-  
-  #LButton a:hover {  
-    background-color: #27ae60;  
-  }  
+
+  .LButton a:hover {
+    background-color: #27ae60;
+  }
 
   .itemBox {
     background-color: #222;
@@ -448,38 +440,37 @@ a:visited {
     margin: auto;
     margin-bottom: 30px;
   }
-  
-  .itemBoxNoBorder { 
+
+  .itemBoxNoBorder {
     width: 80%;
     height: fit-content;
     border: 1px solid transparent;
-    box-sizing: border-box;  
+    box-sizing: border-box;
     align-items: center;
     margin: auto;
     margin-bottom: 30px;
   }
-  
-  
+
   .itemBoxParagraph {
     width: 80%;
     margin: auto;
   }
-  
+
   .itemBoxParagraphTall {
     object-fit: cover !important;
     width: auto !important;
   }
-  
+
   .itemBoxParagraph img {
     object-fit: cover;
     width: 80%;
   }
 
-  .sideBar{       
+  .sideBar {
     display: flex;
     flex-direction: column;
-    vertical-align: top;    
-    
+    vertical-align: top;
+
     height: 88%;
     width: 50;
     position: fixed;
@@ -487,34 +478,36 @@ a:visited {
     top: 120px;
     left: 0;
     background-color: #222;
-    overflow-x: hidden;   /* Disable scroll bar*/
+    overflow-x: hidden; /* Disable scroll bar*/
     transition: 0.5s;
     border-right: 1px solid #444;
     border-bottom: 1px solid #444;
-    padding-top: 0;      
-    
+    padding-top: 0;
   }
 
-  #desktop{
+  .desktop {
     display: block;
   }
 
-  #mobile{
+  .mobile {
     display: none;
   }
 
+  .tablet {
+    display: block;
+  }
 
-  #mySideBar{
+  .mySideBar {
     display: none;
   }
 
-  #mySmallSidebar{
+  .mySmallSidebar {
     display: block;
     height: 100%;
   }
 
   .bodyBox {
-    background-color: #1E1E1E;
+    background-color: #1e1e1e;
     margin-left: auto;
     margin-right: auto;
     max-width: 700px;
@@ -527,99 +520,97 @@ a:visited {
     height: fit-content;
   }
 
-  .tableCat{
+  .tableCat {
     background-color: #176e30 !important;
     text-align: left;
     color: aliceblue;
     text-align: left;
   }
-  
-  table{  
+
+  table {
     border-collapse: collapse;
     border: 2px solid #444;
     font-size: 20px;
     width: 100%;
     margin: auto;
   }
-  
+
   th {
     background-color: #922;
     padding: 15px;
     color: aliceblue;
     border: 0px solid #622;
   }
-  .tableNotes{
-    font-size: 12px; text-align: left;
+  .tableNotes {
+    font-size: 12px;
+    text-align: left;
   }
 }
 
+@media only screen and (min-width: 1322px) {
+  h1 {
+    color: #27ae60;
+    margin-block: 2rem;
+    font-size: 35px;
+  }
 
-@media only screen and (min-width: 1322px) 
-{
-h1 {
-  color: #27ae60;
-  margin-block: 2rem;
-  font-size: 35px;
-}
+  h2 {
+    margin-block: 1rem;
+    font-size: 30px;
+  }
 
-h2 {
-  margin-block: 1rem;
-  font-size: 30px;
-}
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
 
-h3{
-  font-size: 20px;
-  font-weight: bold;
-}
+  p {
+    font-size: 25px;
+    color: lightgrey;
+  }
 
-p {
-  font-size: 25px;
-  color: lightgrey;
-}
-
-.p2 {
-  font-size: 20px;
-  color: lightgrey;
-  margin-block: 1rem;
-}
-  .sideBar{
+  .p2 {
+    font-size: 20px;
+    color: lightgrey;
+    margin-block: 1rem;
+  }
+  .sideBar {
     display: flex;
     flex-direction: column;
-    vertical-align: top;    
-  
+    vertical-align: top;
+
     height: 88%;
-    width: 250;
+    width: 250px;
     position: fixed;
     z-index: 1;
     top: 120px;
     left: 0;
     background-color: #222;
-    overflow-x: hidden;   /* Disable scroll bar*/
+    overflow-x: hidden; /* Disable scroll bar*/
     transition: 0.5s;
     border-right: 1px solid #444;
     border-bottom: 1px solid #444;
-    padding-top: 0;  
+    padding-top: 0;
   }
 
-  ul{
+  ul {
     font-size: 20px;
   }
 
-  #LButton a:link,
+  .LButton a:link,
   a:visited {
-    
     justify-content: center;
     display: inline-flex;
     background-color: #eb5757;
-    border: 1px solid black;  
-    color: aliceblue;    
-    height: 3rem;  
+    border: 1px solid black;
+    color: aliceblue;
+    height: 3rem;
     width: 100%;
     text-decoration: none;
   }
-  
-  #LButton a:hover {  
-    background-color: #27ae60;  
+
+  .LButton a:hover {
+    background-color: #27ae60;
   }
 
   .itemBox {
@@ -634,51 +625,50 @@ p {
     margin: auto;
     margin-bottom: 30px;
   }
-  
-  .itemBoxNoBorder { 
+
+  .itemBoxNoBorder {
     width: 80%;
     height: fit-content;
     border: 1px solid transparent;
-    box-sizing: border-box;  
+    box-sizing: border-box;
     align-items: center;
     margin: auto;
     margin-bottom: 30px;
   }
-  
-  
+
   .itemBoxParagraph {
     width: 80%;
     margin: auto;
   }
-  
+
   .itemBoxParagraphTall {
     object-fit: cover !important;
     width: auto !important;
   }
-  
+
   .itemBoxParagraph img {
     object-fit: cover;
     width: 80%;
   }
 
-  #desktop{
+  .desktop {
     display: block;
   }
 
-  #mobile{
+  .mobile {
     display: none;
   }
 
-  #mySmallSideBar{
+  .mySmallSidebar {
     display: none;
   }
 
-  #mySideBar{
+  .mySideBar {
     display: flex;
   }
 
   .bodyBox {
-    background-color: #1E1E1E;
+    background-color: #1e1e1e;
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
@@ -689,43 +679,44 @@ p {
     text-align: center;
     align-items: flex-start;
     height: fit-content;
-    }
+  }
 
-    .tableCat{
-      background-color: #176e30 !important;
-      text-align: left;
-      color: aliceblue;
-      text-align: left;
-    }
-    
-    table{  
-      border-collapse: collapse;
-      border: 2px solid #444;
-      width: 100%;
-      font-size: 20px;
-      margin: auto;
-    }
-    
-    th {
-      background-color: #922;
-      padding: 15px;
-      color: aliceblue;
-      border: 0px solid #622;
-    }
-    .tableNotes{
-      font-size: 12px; text-align: left;
-    }
+  .tableCat {
+    background-color: #176e30 !important;
+    text-align: left;
+    color: aliceblue;
+    text-align: left;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: 2px solid #444;
+    width: 100%;
+    font-size: 20px;
+    margin: auto;
+  }
+
+  th {
+    background-color: #922;
+    padding: 15px;
+    color: aliceblue;
+    border: 0px solid #622;
+  }
+  .tableNotes {
+    font-size: 12px;
+    text-align: left;
+  }
 }
 
-.layer1{
+.layer1 {
   z-index: 1;
 }
 
-.layer2{
+.layer2 {
   z-index: 2;
 }
 
-.layer3{
+.layer3 {
   z-index: 3;
 }
 
@@ -744,13 +735,11 @@ p {
 }
 
 .outBody {
-  
   display: block;
   width: 100%;
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
   height: fit-content;
 }
-
 
 .bodyBoxScroll {
   scroll-margin-top: 100px;
@@ -759,7 +748,6 @@ p {
 .endBox {
   height: 400px;
 }
-
 
 .box-one {
   display: flex;
@@ -781,7 +769,6 @@ p {
   border: 0px solid transparent;
 } */
 
-
 .box-two {
   background-color: #2d9cdb;
   border: 30px solid #27ae60;
@@ -795,40 +782,34 @@ p {
   margin-block: 2rem;
 }
 
-#listBox {
+.listBox {
   width: min-content;
   margin: auto;
 }
 
-#showGPU-AMD
-{
-  display:contents;
+.showGPU-AMD {
+  display: contents;
 }
 
-#hideGPU-AMD
-{
+.hideGPU-AMD {
   display: none;
 }
 
-
-#showGPU-NVidia
-{
-  display:contents;
+.showGPU-NVidia {
+  display: contents;
 }
 
-#hideGPU-NVidia
-{
+.hideGPU-NVidia {
   display: none;
 }
 
-.tagGap{
+.tagGap {
   height: 9rem;
 }
 
-.line{
+.line {
   width: 100%;
   height: 1px;
   border: 1px solid #555;
   margin: auto;
-  
 }

@@ -784,7 +784,7 @@
               class="p2"
               style="margin-top: 0; background-color: #1e1e1e"
               type="text"
-              id="myInput"
+              id="searchInput"
               onkeyup="search()"
               placeholder="Search for GPU..."
               title="Type in a GPU"
@@ -2212,16 +2212,10 @@
                   <td>1</td>
                 </tr>
                 <tr>
-                  <td>GTX 3050 Ti</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
                   <td>GTX 3050</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>550</td>
+                  <td>0</td>
+                  <td>1</td>
                 </tr>
                 <tr>
                   <td>RTX 2080 Ti F.E. SLI</td>
@@ -4013,7 +4007,7 @@
     <script>
       function search() {
         let input, filter, table, tr, td, i, txtValue;
-        input = document.getElementById("myInput");
+        input = document.getElementById("searchInput");
         filter = input.value.toUpperCase();
         table = document.getElementById("GPUs");
         tr = table.getElementsByTagName("tr");

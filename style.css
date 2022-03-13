@@ -67,9 +67,6 @@ img {
 }
 .topLogo {
   display: flex;
-  max-zoom: 0%;
-  min-height: fit-content;
-
   max-height: 120px;
   padding: 0px;
   margin: 0px;
@@ -306,12 +303,12 @@ a:visited {
     display: flex;
     flex-direction: column;
     vertical-align: top;
-
+    overflow-y: hidden;
     height: 88%;
     width: 50;
     position: fixed;
     z-index: 1;
-    top: 120px;
+    top: 60px;
     left: 0;
     background-color: #222;
     overflow-x: hidden; /* Disable scroll bar*/
@@ -579,7 +576,7 @@ a:visited {
     display: flex;
     flex-direction: column;
     vertical-align: top;
-
+    overflow-y: hidden;
     height: 88%;
     width: 250px;
     position: fixed;
